@@ -21,10 +21,10 @@ public class CupOfCoffee {
 
     @Override
     public String toString() {
-        return "com.coffee.tendollar.CupOfCoffee{" +
-                "caffeine=" + caffeine +
-                ", size=" + size +
-                ", milk=" + milk +
+        return "CupOfCoffee{"
+                + caffeine +
+                ", " + size +
+                ", " + milk +
                 ", toppings=" + toppings +
                 '}';
     }
